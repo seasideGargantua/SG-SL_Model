@@ -116,3 +116,6 @@ you can run the code through the next command
 ```
 python main
 ```
+## Result
+The following is an example of the output results in Ezhou summer
+![result](figs/result.png)
