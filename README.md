@@ -3,7 +3,7 @@
 ## Introduction
 In order to identify the light pollution risk level of a location, we divide it into two large categories according to the spatial scale, which are Sky Glow (Large spatial scale at ground level) and Spill Light (Moderate spatial scale at urban level). Based on the definition and causes of light pollution, we developed SG-SL Light Pollution Estimation Model Based on Radiometric and GIS Method. 
 ## Quick Start
-### code structure
+### Code Structure
 the code's structure should be as follows:
 ```text
 └─SG-SL_Model
@@ -19,7 +19,7 @@ the code's structure should be as follows:
     ├─strategy.py                     # the trategy of mitigating light pollution
   ├─main.py                           # main code to run our model
 ```
-### data structure
+### Data Structure
 the datas used should be orgnized to the structure as follows: 
 ```
 └─Datasets
@@ -105,4 +105,14 @@ the datas used should be orgnized to the structure as follows:
       ├─jianshi
       ├─shennongjia
       ├─wuhan
+```
+### Depandency Package
+GDAL 2.4.1
+argparse 1.4.0
+numpy 1.21.6
+scipy 1.7.3
+### Usage
+you can run the code through the next command
+```
+python main
 ```
